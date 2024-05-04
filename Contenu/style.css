@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    top: 0;
+}
+
+.wapper{
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    width: 100%;
+    max-width: 1500px;
+    height: 3cm;
+    gap: 20px;
+    
+}
+body{
+    background-color:rgb(23, 121, 146);
+     /*background-image:url(./image/fond.jpg);*/
+    color: white
+
+    
+}
+nav{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    justify-content: space-evenly;
+}
+header{
+    text-align: center;
+    color:rgb(230, 217, 217);
+    font-family: 'Times New Roman', Times, serif;
+    /**height: 60px;**/
+    font-size: 40px;
+    box-shadow:0px 0px 8px 3px black;
+   display: flex;
+   align-items: center;
+}
+.wapper aside{
+    /*border: 2px dotted red;
+    
+    background-color: rgb(119, 117, 110);
+    box-shadow: 3px 4px 5px rgb(166, 52, 36);*/
+    margin-top: -50px;
+    margin-left: 5px;
+    height: 700px;
+}
+.logo{
+   margin-left: 80px;
+   border-radius: 400px;
+
+   left: 0;
+   display: flex;
+   position: fixed;
+}
+.wapper img{
+    border-radius: 400px;
+    margin-left: 6px;
+;
+}
+/*.wapper section{
+    border: 1px dotted rgb(128, 128, 128);
+    margin-top: 30px;
+}
+.wapper aside ul{
+    list-style-type: none;
+    text-align: left;
+    margin: 0 8px;
+}*/
+h1{
+    background-color:none;
+    color:beige;
+    font-size: 39px;
+    border-top-left-radius: 19px;
+    font-family: 'Times New Roman', Times, serif;
+
+    box-shadow:  2px 2px 2px beige;
+   
+   
+
+   text-align: center;
+   color: white;
+
+   
+
+}
+/*.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+
+
+}*/
+.flex .item{
+  flex-basis: 50%;
+    margin-top: 15px;
+}
+
+.item img{
+    box-shadow: 2px 3px 5px rgb(236, 236, 236);
+    height: 150px;
+    border-radius: 3px;
+    width: 250px;
+    margin-left: 140px;
+    
+
+}
+/**.miss{
+    margin-right: 600px;
+    margin-top: -15px;
+    background-color: grey;
+    width: 6cm;
+    margin-left: 4cm;
+    box-shadow: 2px 2px 2px;
+   border-radius: 3px;
+    height: 40px;
+    font-size: 30px;
+    color: rgb(255, 240, 240);
+}*/
+.particularite{
+    margin-top: -50px;
+}
+/*.part{
+    background-color: rgb(173, 157, 157);
+    width: 6cm;
+    margin-left: 19cm;
+    box-shadow: 2px 2px 2px;
+    border-radius: 3px;
+    height: 40px;
+    font-size: 30px;
+    color: rgb(255, 240, 240);
+
+}*/
+.cont{
+    margin-top: 120px;
+    background-color: rgb(10, 88, 109);
+    box-shadow: 0px 0px 8px 4px beige;
+    height: 964px;
+
+    
+}
+.eni{
+    margin-top: 30px;
+    margin-left: 39px;
+}
+.cont img{
+    margin-left: 8px;
+    border-radius: 3px;
+    height: 100px;
+}
+.miss1{
+color: black;
+font-size: 21px;
+margin-top: -544px;
+background-color: rgb(25, 74, 95);
+box-shadow:0px 0px 8px 3px black;
+    border-radius: 3px;
+    width: 15cm;
+    margin-left: 17cm;
+
+}
+.objt{
+    color: black;
+    font-size: 21px;
+    margin-top: 60px;
+    background-color: rgb(25, 74, 95);
+    box-shadow:0px 0px 8px 3px black;
+        border-radius: 3px;
+        width: 15cm;
+        margin-left: 3%; 
+}
+
+.prt{
+    color: black;
+    font-size: 21px;
+    margin-top: 70px;
+    background-color: rgb(25, 74, 95);
+    box-shadow:0px 0px 8px 3px white;
+        border-radius: 3px;
+        width: 31cm;
+        margin-left: 3%; 
+        
+    
+}
+label{margin: 28px;}
+
+button{
+text-align: center;
+margin-left: 270px;
+margin-top: 70px;
+}
+
+#btn{
+    background-color:rgb(23, 121, 146);
+    width: 100px;
+    height:49px;
+    
+    border:none;
+
+    border-radius: px;
+
+
+}
+
+#btn1{
+  background-color:none;
+  color:beige;
+  font-size: 39px;
+  border-top-left-radius: 19px;
+  width: 129px;
+  height:49px;
+  box-shadow:  2px 2px 2px beige;
+
+  
+}
+
+#btn2{
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   text-shadow: 2px 1px 3px white;
+
+}
+i{
+    margin-left: 40%;
+    font-size: 30px;
+    color: azure;
+}
+
+ul{
+    margin-top: 100px;
+    font-size: 23px;
+}
+.ecole{
+    margin-top: 100px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 3px 4px 5px white;
+    
+}
+.nation{
+    margin-top: 100px;
+    font-size: 40px;
+    color:white;
+    text-shadow: 3px 4px 5px black;
+    
+}
+.info{
+    margin-top: 100px;
+    font-size: 40px;
+    color:black;
+    text-shadow: 3px 4px 5px white;
+    
+}
+
+
+@media (max-width: 500px)
+{
+
+}
